@@ -1,3 +1,38 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a href="" class="navbar-brand" href="#">Journal</a>
+<header role="banner">
+  <div class="text-center">
+    <h1>Journal</h1>
+  </div>
+</header>
+
+<nav *ngIf="false" class="navbar navbar-expand-lg navbar-light bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" 
+          data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" 
+          aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav justify-content-center mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Chapter 1<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Chapter 2</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Chapter 3</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<nav class="bg-light">
+  <ul class="nav justify-content-center navbar">
+    <li class="nav-item">
+      <a class="nav-link" routerLink="chapter1">Chapter 1</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="chapter2">Chapter 2</a>
+    </li>
+  </ul>
 </nav>
