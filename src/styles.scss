@@ -3,7 +3,19 @@
 /* Importing Bootstrap SCSS file. */
 @import '~bootstrap/scss/bootstrap';
 
+
+/* Importing fonts */
 @font-face {
     font-family: 'newyork';
     src: url(assets/fonts/NewYork.ttf);
+}
+
+@font-face {
+    font-family: 'calligraphy';
+    src: url(assets/fonts/Calligraphy.ttf);
+}
+
+@font-face {
+    font-family: 'oasis';
+    src: url(assets/fonts/Oasis.ttf);
 }
