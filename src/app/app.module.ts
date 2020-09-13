@@ -9,6 +9,7 @@ import { NavComponent } from './nav/nav.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { StanzaComponent } from './stanza/stanza.component';
 import { FormsModule } from '@angular/forms';
+import { InViewportModule } from 'ng-in-viewport';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { FormsModule } from '@angular/forms';
     BrowserAnimationsModule,
     AppRoutingModule,
     NgbModule,
-    FormsModule
+    FormsModule,
+    InViewportModule
   ],
   providers: [],
   bootstrap: [AppComponent]

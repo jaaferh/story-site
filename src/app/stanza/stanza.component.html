@@ -2,18 +2,12 @@
     <h1>{{chapter.title}}</h1>
 </div>
 
-<div *ngFor="let stanza of contentDet; index as i" class="panel content shadow rounded">
-    <label hidden="true">
-        <input 
-        type="checkbox" 
-        [id]="'vis' + i" 
-        [(ngModel)]="stanza.visible" />
-        View Stanza
-    </label>
-
-    <div @appearTrigger *ngIf="stanza.visible">
-        <h1>{{stanza.line}}</h1>
-    </div>
-</div>
-
-<i class="fas fa-angle-down bottom-icon"></i>
+<ul class="list">
+    <li class="panel shadow rounded list-item inactive"
+        inViewport
+        [inViewportOptions]="{ threshold: [0] }"
+        (inViewportAction)="onIntersection($event)"
+        *ngFor="let stanza of chapter.content;">
+        <h1>{{stanza}}</h1>
+    </li>
+</ul>
