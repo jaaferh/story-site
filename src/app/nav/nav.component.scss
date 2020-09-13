@@ -13,3 +13,11 @@ a {
 a:active {
     color: black;
 }
+
+.page-header {
+  cursor: pointer;
+  padding-bottom: 15px;
+  box-shadow: 0px 15px 10px -15px #111; 
+  background-color: white;
+  outline: none;
+}
