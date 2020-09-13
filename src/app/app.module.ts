@@ -10,13 +10,15 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { StanzaComponent } from './stanza/stanza.component';
 import { FormsModule } from '@angular/forms';
 import { InViewportModule } from 'ng-in-viewport';
+import { ChaptersComponent } from './chapters/chapters.component';
 
 @NgModule({
   declarations: [
     AppComponent,
       NavComponent,
       ChapterOneComponent,
-      StanzaComponent
+      StanzaComponent,
+      ChaptersComponent
    ],
   imports: [
     BrowserModule,

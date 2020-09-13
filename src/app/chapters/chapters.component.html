@@ -1,0 +1,15 @@
+<div class="row grid">
+    <div class="col-3 p-0 card shadow" 
+         *ngFor="let title of chaptersList; index as i" >
+         
+        <div [routerLink]="'chapter-' + numberToWords(i + 1)">
+            <div class="card-body">
+                <h1>{{title}}</h1>
+            </div>
+            <div class="card-footer">
+                <h2>Chapter {{i + 1}}</h2>
+            </div>
+        </div>
+        
+    </div>
+</div>
