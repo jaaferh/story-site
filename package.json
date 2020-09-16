@@ -8,7 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "dev": "lite-server --baseDir=\"docs/story-site\""
+    "dev": "lite-server --baseDir=\"docs/story-site\"",
+    "deploy": "ng deploy --base-href=/story-site/"
   },
   "private": true,
   "dependencies": {
