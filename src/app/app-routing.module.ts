@@ -4,6 +4,7 @@ import { ChapterOneComponent } from './chapters/chapter-one/chapter-one.componen
 import { ChaptersComponent } from './chapters/chapters.component';
 
 const routes: Routes = [
+  { path: '', redirectTo: 'chapters', pathMatch: 'full' },
   { path: 'chapters', component: ChaptersComponent },
   { path: 'chapters/chapter-one', component: ChapterOneComponent},
 ];

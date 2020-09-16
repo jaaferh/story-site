@@ -1,6 +1,10 @@
 # StorySite
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.9.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.8.
+
+## Todo
+
+- Create and Connect Firebase database to the SPA, replacing .json files for chapter data
 
 ## Development server
 
@@ -21,6 +25,10 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 ## Running end-to-end tests
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Deployment
+
+Run `ng deploy --base-href=/story-site/` to deploy to gh-pages branch.
 
 ## Further help
 
