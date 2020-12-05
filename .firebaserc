@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "story-site-2e072": {
+      "hosting": {
+        "story-site": [
+          "story-site-2e072"
+        ]
+      }
+    }
+  }
+}
